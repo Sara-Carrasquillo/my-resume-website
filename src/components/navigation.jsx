@@ -1,3 +1,5 @@
+import React from 'react';
+
 import linkLogo from '/linkedinlogo.png'
 import gitLogo from '/githublogo.png'
 import gmailLogo from '/gmailLogo.png'

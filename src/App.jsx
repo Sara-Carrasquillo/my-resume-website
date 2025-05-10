@@ -1,3 +1,4 @@
+import React from 'react';
 import Navigation from './components/navigation.jsx';
 import Index from './components/index.jsx';
 import Education from './components/education.jsx';
