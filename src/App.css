@@ -1,0 +1,229 @@
+.navigation {
+  position: sticky;
+  top: 1em;
+  display: flex;
+  gap: 3rem;
+  max-width: fit-content;
+  margin: auto 2em 0 auto;
+  padding: 1em 2em;
+  list-style: none;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
+  z-index: 1000;
+  color: white;
+}
+.socialLinks {
+  position: absolute;
+  top: 1em;
+  left: 2em;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+.linkLogo,
+.gmailLogo,
+.githubLogo {
+  width: 3rem;
+  height: auto;
+  border-radius: 20%;
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
+}
+.perPic{
+  border-radius: 30%;
+  object-fit: cover;
+  height: 20rem;
+  width: 20rem;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
+  margin: 1.5rem;
+}
+.resPic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
+  margin: 2em auto;
+  max-width: 640px;
+}
+.education-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+
+.slider-button {
+  background: linear-gradient(145deg, #1a1a1a, #232323);
+  border: 1px solid rgba(63, 127, 190, 0.5);
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.slider-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.slider-button:not(:disabled):hover {
+  background: #232323;
+  border-color: var(--accent);
+  box-shadow: 0 0 20px var(--shadow-glow), 0 0 40px var(--shadow-glow);
+}
+
+.carousel-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  scroll-padding-left: 1rem;
+  scroll-padding-right: 1rem;
+}
+
+.carousel-container::-webkit-scrollbar {
+  height: 8px;
+}
+.carousel-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.education-card {
+  flex: 0 0 calc(33.333% - 1rem);
+  background: #1a1a1a;
+  padding: 1rem;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
+  margin: 2em auto;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card-content {
+  font-size: 0.95rem;
+  font-weight: bolder;
+  line-height: 1.3;
+}
+.repo-preview {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(63, 127, 190, 0.4);
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+h1 {
+  color: whitesmoke;
+  text-align: left;
+  font-weight: bold;
+  position: relative;
+  margin-left: 0.5em;
+  font-size: 3.2em;
+  line-height: 1.1;
+  z-index: 2;
+}
+
+h2{
+  padding-top: 5em ;
+  padding-bottom: 5em;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+h3{
+  font-style: italic;
+  text-shadow: rgba(15, 15, 15, 0.5) 1px 1px 1px;
+  text-align: left;
+  margin-left: 1.5em;
+  padding-right: 20em;
+  background: linear-gradient(40deg,#3f7fbe, #1a3d80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+p{
+  text-align: center;
+}
+section{
+  padding-top: 7em;
+  padding-bottom: 5em;
+  z-index: 2;
+
+}
+footer{
+  font-style: italic;
+  text-align: center;
+  padding-top: 10em ;
+  bottom: 1em;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 599px) {
+  .navigation {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1em;
+  }
+  .education-card {
+    flex: 0 0 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .education-card {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  .education-card {
+    flex: 0 0 calc(33.333% - 1rem);
+  }
+}
