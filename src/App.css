@@ -222,7 +222,7 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    padding: 2em;
+    padding: 4em 2em;
     margin-top: 1rem;
     top: 1em;
     left: 2em;
