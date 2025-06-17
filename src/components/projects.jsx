@@ -7,9 +7,9 @@ const PROJECTS = [
         previewUrl: 'https://opengraph.githubassets.com/1/Sara-Carrasquillo/MyGoalTrackingApp'
     },
     {
-        name: 'StudentInformationWebsite',
-        repoUrl: 'https://github.com/your-user/StudentInformationWebsite',
-        previewUrl: 'https://opengraph.githubassets.com/1/Sara-Carrasquillo/Student-Information-Website'
+        name: 'MacWatch',
+        repoUrl: 'https://github.com/Sara-Carrasquillo/MacWatch',
+        previewUrl: 'https://opengraph.githubassets.com/1/Sara-Carrasquillo/MacWatch'
     },
     {
         name: 'MyQRCodeGenerator',
