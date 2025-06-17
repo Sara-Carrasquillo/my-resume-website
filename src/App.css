@@ -218,13 +218,14 @@ footer{
   }
 
   .socialLinks {
-    position: relative;
+    position: absolute;
+    display: flex;
     flex-direction: row;
     gap: 1rem;
     justify-content: center;
     margin-top: 1rem;
-    left: auto;
-    top: auto;
+    top: 1em;
+    left: 2em;
   }
 
   .resPic {
