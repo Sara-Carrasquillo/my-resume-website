@@ -210,7 +210,7 @@ footer{
   .navigation {
     display: flex;
     gap: 1rem;
-    padding: 1em;
+    padding: 2em;
     width: fit-content;
     top: 1em;
     margin: auto 2em 0 auto;
@@ -222,7 +222,7 @@ footer{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-content: center;
+    padding: 2em;
     margin-top: 1rem;
     top: 1em;
     left: 2em;
