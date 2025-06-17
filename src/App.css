@@ -208,6 +208,7 @@ footer{
 
 @media (max-width: 599px) {
   .navigation {
+    flex-direction: column;
     position: sticky;
     display: flex;
     list-style: none;
