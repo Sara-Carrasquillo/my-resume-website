@@ -57,6 +57,7 @@
   box-shadow: 0 0 10px rgba(63, 127, 190, 0.6);
   margin: 2em auto;
   max-width: 640px;
+  filter: blur(1px);
 }
 .education-section {
   width: 100%;
